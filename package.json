@@ -1,0 +1,25 @@
+{
+  "name": "@cli-aviel/create-project",
+
+  "private": true,
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "bin": {
+    "@cli-aviel/create-project":"bin/create-project",
+    "create-project": "bin/create-project"
+  }, "publishConfig": {
+    "access": "restricted"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "create-project"
+  ],
+  "author": "aviel",
+  "license": "MIT",
+  "dependencies": {
+    "esm": "^3.2.18"
+  }
+}
